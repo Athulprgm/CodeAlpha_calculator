@@ -1,0 +1,99 @@
+:root {
+  --color-primary: #092641; 
+ 
+  --color-secondry: #d5e0f7; 
+   
+}
+@font-face {
+  font-family: 'Digital-7';
+  src: url('digital_7/digital-7.ttf') format('truetype');
+}
+
+body{
+    display: flex;
+    justify-content: center;
+   
+    background-color: rgb(255, 255, 255);
+}
+.card{
+    width: 400px;
+    height: 650px;
+    border: 2px solid black;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    position: relative;
+
+}
+.disp-2{
+   
+position: absolute;
+top: 110px;
+width: 85%;
+left: 19px;
+height: 35px;
+text-align: right;
+font-size: 40px;
+padding: 10px;
+ font-family: 'Digital-7', monospace;
+border: none;
+    border-radius: 0 0 10px 10px;
+    background-color: var(--color-secondry);
+    color: rgb(88, 86, 86);
+}
+
+.screen{
+    
+    width: 89%;
+    height: 100px;
+ border: none;
+   border-radius: 10px 10px 0 0;
+
+     margin: 10px 0 19px 19px;
+     background-color: var(--color-secondry);
+     text-align: right;
+
+     font-size: 120px;
+    font-family: 'Digital-7', monospace;
+    position: relative;
+    
+}
+.button{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    padding: 25px;
+    height: 260px;
+    margin-top: 44px;
+   
+    
+}
+.bttn{
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    background-color: #1f2830;
+    font-weight: bolder;
+    font-size: 23px;
+  
+}
+.c-bttn:hover{
+    background-color: #1a1b1b;
+}
+.bttn:hover{
+    background-color: #1a1b1b;
+}
+.c-bttn{
+      border-radius: 20px;
+    padding: 20px;
+    color: rgb(255, 0, 0);
+    background-color: #1f2830;
+    font-weight: bolder;
+     font-size: 23px;
+}
+h2{
+    color: rgb(189, 182, 182);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 569px;
+  left: 300px;
+}

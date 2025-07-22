@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+    <div>
+        <input id="display" class="screen" type="text" placeholder="0" readonly>
+        <div id="preview" class="disp-2"></div> 
+</div>  
+<div class="button">
+    
+    <button onclick="appendToDisplay('+')"  class="bttn">+</button>
+    <button onclick="appendToDisplay('7')"  class="bttn">7</button>
+
+    <button onclick="appendToDisplay('8')"  class="bttn">8</button>
+    <button  onclick="appendToDisplay('9')"  class="bttn">9</button>
+    <button onclick="appendToDisplay('-')"  class="bttn">-</button>
+    <button onclick="appendToDisplay('4')"  class="bttn">4</button>
+
+    <button onclick="appendToDisplay('5')"  class="bttn">5</button>
+    <button onclick="appendToDisplay('6')"  class="bttn">6</button>
+    <button onclick="appendToDisplay('*')"  class="bttn">*</button>
+    <button onclick="appendToDisplay('1')"  class="bttn">1</button>
+    <button onclick="appendToDisplay('2')"  class="bttn">2</button>
+
+    <button onclick="appendToDisplay('3')"  class="bttn">3</button>
+    <button onclick="appendToDisplay('/')"  class="bttn">/</button>
+    <button onclick="appendToDisplay('0')" class="bttn">0</button>
+    <button onclick="appendToDisplay('.')"  class="bttn">.</button>
+
+    <button onclick="calculate()" class="bttn">=</button>
+    <button onclick="deleteLast()" class="c-bttn">x</button>
+    <button onclick="clearDisplay()" class="c-bttn">C</button>
+    
+    <h2>CASIO</h2>
+
+  
+</div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
