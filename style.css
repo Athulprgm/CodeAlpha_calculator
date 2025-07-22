@@ -110,7 +110,7 @@ h2{
   }
 
   .screen {
-    width: calc(100% - 40px);
+    width: calc(100% - 48px);
     height: 15vh;
     max-height: 100px;
     font-size: 15vw;
